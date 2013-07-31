@@ -1,0 +1,9 @@
+<%= @user.first_name %>
+
+<% if @statuses %>
+	<% @statuses.each do |status| %>
+	
+		<%= status.content %>
+	
+	<% end %>
+<% end %>
